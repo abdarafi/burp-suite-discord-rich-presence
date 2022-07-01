@@ -5,4 +5,4 @@
 * Jython Interpreter
 
 ### WIP
-* Need to figure how to talk with discord SDK through RPC
+* Might wanna change to Java implementation instead. Cuz Jython isn't support Python 3 yet and importing 3rd party library is janky.
