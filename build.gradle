@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'org.corazzon'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'net.portswigger.burp.extender:burp-extender-api:2.3'
+    testImplementation files('B:\\burpsuite.jar')
+}
+
+test {
+    useJUnitPlatform()
+}
